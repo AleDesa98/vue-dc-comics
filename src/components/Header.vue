@@ -73,9 +73,7 @@ export default {
         }
     }, 
     methods: {
-        saluta: function() {
-            alert("Ciao");
-        }
+
     }
 }
 </script>
