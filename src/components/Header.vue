@@ -1,5 +1,5 @@
 <template>
-    <header>
+    <header class="container">
         <a href="/">
             <img src="../assets/img/dc-logo.png" alt="Logo DC">
         </a>
@@ -92,7 +92,12 @@ export default {
 
     .active {
         color: blue;
-        border-bottom: 2px solid blue;
+        border-bottom: 5px solid blue;
+    }
+
+    .nav {
+        height: 100%;
+        display: inline-block;
     }
 
     ul {
@@ -103,10 +108,12 @@ export default {
 
         li {
             a {
-                padding: 10px;
+                padding:0 10px;
                 color: black;
                 text-decoration: none;
                 text-transform: uppercase;
+                line-height: 120px;
+                display: block;
             }
         }
     }
