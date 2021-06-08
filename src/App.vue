@@ -37,4 +37,9 @@ export default {
     padding: 0;
     box-sizing: border-box;
   }
+
+  .container {
+    max-width: 1170px;
+    margin: auto;
+  }
 </style>
